@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-21 13:24:43.577827",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_fper",
+  "fab_name",
+  "headquarter",
+  "branches",
+  "website",
+  "drive"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_fper",
+   "fieldtype": "Section Break",
+   "label": "Fabricator detail"
+  },
+  {
+   "fieldname": "fab_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Fabricator Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "headquarter",
+   "fieldtype": "Table",
+   "label": "Headquarter",
+   "options": "fabHeadquarter"
+  },
+  {
+   "fieldname": "branches",
+   "fieldtype": "Table",
+   "label": "Branches",
+   "options": "fabBranches"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website"
+  },
+  {
+   "fieldname": "drive",
+   "fieldtype": "Data",
+   "label": "Drive"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-21 13:57:14.951961",
+ "modified_by": "Administrator",
+ "module": "Project Station",
+ "name": "fabricator",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

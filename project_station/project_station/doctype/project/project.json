@@ -1,0 +1,146 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-21 19:43:55.018825",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_details_section",
+  "fabricator",
+  "projectname",
+  "description",
+  "esthours",
+  "status",
+  "stage",
+  "section",
+  "department",
+  "manager",
+  "team",
+  "tools",
+  "tabbreak",
+  "main",
+  "misc",
+  "customer",
+  "startdate",
+  "enddate"
+ ],
+ "fields": [
+  {
+   "fieldname": "fabricator",
+   "fieldtype": "Link",
+   "label": "Fabricator",
+   "options": "fabricator"
+  },
+  {
+   "fieldname": "projectname",
+   "fieldtype": "Data",
+   "label": "Project Name"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "esthours",
+   "fieldtype": "Data",
+   "label": "Estimated Hours"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "stage",
+   "fieldtype": "Data",
+   "label": "Stage"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fieldname": "manager",
+   "fieldtype": "Data",
+   "label": "Manager"
+  },
+  {
+   "fieldname": "team",
+   "fieldtype": "Data",
+   "label": "Team"
+  },
+  {
+   "fieldname": "tools",
+   "fieldtype": "Data",
+   "label": "Tools"
+  },
+  {
+   "fieldname": "tabbreak",
+   "fieldtype": "Column Break",
+   "label": "Connection Design"
+  },
+  {
+   "default": "0",
+   "fieldname": "main",
+   "fieldtype": "Check",
+   "label": "Main Design"
+  },
+  {
+   "default": "0",
+   "fieldname": "misc",
+   "fieldtype": "Check",
+   "label": "Misc Design"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "label": "Customer Design"
+  },
+  {
+   "fieldname": "startdate",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "enddate",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Section Break",
+   "label": "Additional Information"
+  },
+  {
+   "fieldname": "project_details_section",
+   "fieldtype": "Section Break",
+   "label": "Project Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-21 19:52:53.963902",
+ "modified_by": "Administrator",
+ "module": "Project Station",
+ "name": "Project",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

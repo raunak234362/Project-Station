@@ -5,17 +5,91 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_wxyp"
+  "vendor",
+  "branch",
+  "username",
+  "designation",
+  "f_name",
+  "m_name",
+  "l_name",
+  "email",
+  "phone",
+  "alt_phone",
+  "landline",
+  "alt_landline",
+  "password"
  ],
  "fields": [
   {
-   "fieldname": "section_break_wxyp",
-   "fieldtype": "Section Break"
+   "fieldname": "vendor",
+   "fieldtype": "Link",
+   "label": "Vendor",
+   "options": "vendor"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch"
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "label": "Username"
+  },
+  {
+   "fieldname": "f_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "m_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "l_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "alt_phone",
+   "fieldtype": "Data",
+   "label": "Alternate Phone"
+  },
+  {
+   "fieldname": "landline",
+   "fieldtype": "Data",
+   "label": "Landline"
+  },
+  {
+   "fieldname": "alt_landline",
+   "fieldtype": "Data",
+   "label": "Alternate Landline"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-11-21 18:24:23.571469",
+ "modified": "2024-11-21 19:42:28.692643",
  "modified_by": "Administrator",
  "module": "Project Station",
  "name": "vendorUser",

@@ -1,11 +1,12 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-11-21 13:40:02.682271",
+ "creation": "2024-11-21 18:16:49.165129",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "id",
   "address",
   "country",
   "state",
@@ -13,6 +14,11 @@
   "zipcode"
  ],
  "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "Id"
+  },
   {
    "fieldname": "address",
    "fieldtype": "Data",
@@ -42,10 +48,10 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-11-21 18:38:07.347622",
+ "modified": "2024-11-21 18:17:47.179287",
  "modified_by": "Administrator",
  "module": "Project Station",
- "name": "fabBranches",
+ "name": "vendorHeadquarter",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "creation",

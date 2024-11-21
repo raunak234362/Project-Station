@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:fab_name",
  "creation": "2024-11-21 13:24:43.577827",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -23,7 +24,9 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Fabricator Name",
-   "reqd": 1
+   "placeholder": "Select Fabricator",
+   "reqd": 1,
+   "unique": 1
   },
   {
    "fieldname": "headquarter",
@@ -50,10 +53,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-11-21 13:57:14.951961",
+ "modified": "2024-11-21 18:37:13.415542",
  "modified_by": "Administrator",
  "module": "Project Station",
  "name": "fabricator",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
@@ -69,7 +73,10 @@
    "write": 1
   }
  ],
+ "show_name_in_global_search": 1,
+ "show_title_field_in_link": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "fab_name"
 }
